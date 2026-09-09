@@ -1,0 +1,22 @@
+# Environments & Secrets
+venv/
+.env
+.env.local
+
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node/Frontend
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+
+# Auto-generated Databases & Indexes (App will rebuild these from data/documents)
+backend/data/index/
+backend/data/*.db
+
+# OS Files
+.DS_Store
